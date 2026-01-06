@@ -4,11 +4,11 @@ import { Button } from './ui/Button';
 
 export const Hero = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://placehold.co/1920x1080/2c3e50/FFFFFF?text=Mountains+%26+Community+Work" 
+          src="/heroimg.jpg" 
           alt="Shantiraj Foundation Work" 
           className="w-full h-full object-cover"
         />
@@ -20,7 +20,7 @@ export const Hero = () => {
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
         
         {/* Animated Headline */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading text-white mb-6 leading-tight animate-fade-in-up drop-shadow-lg">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-heading text-white mb-6 leading-tight animate-fade-in-up drop-shadow-lg">
           {heroContent.title}
         </h1>
 

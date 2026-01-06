@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#111] text-white pt-20 pb-10 border-t border-gray-900 font-sans">
+    <footer className="bg-[#111] text-white pt-12 pb-8 md:pt-20 md:pb-10 border-t border-gray-900 font-sans">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Columns */}

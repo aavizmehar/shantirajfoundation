@@ -36,7 +36,7 @@ export const DonationCTA = () => {
           </div>
           
           {/* Trust Indicators */}
-          <div className="mt-12 flex items-center space-x-8 text-white/70 text-sm font-medium">
+          <div className="mt-12 flex flex-wrap gap-6 text-white/70 text-sm font-medium">
             <div className="flex items-center">
               <span className="text-primary mr-2">✓</span> 80G Tax Exempted
             </div>

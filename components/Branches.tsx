@@ -59,7 +59,7 @@ export const Branches = () => {
         <div className="relative w-full max-w-lg aspect-[3/4] bg-gray-50 rounded-xl border border-gray-100 shadow-inner p-4">
             {/* Map Image Placeholder */}
             <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/b/b3/India_location_map_%28equirectangular_projection%29.svg" 
+                src="/map.jpg" 
                 alt="India Map" 
                 className="w-full h-full object-contain opacity-40 grayscale"
             />

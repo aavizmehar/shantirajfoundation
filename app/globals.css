@@ -28,6 +28,7 @@ body {
   background-color: var(--background);
   color: var(--text-main);
   font-family: var(--font-sans);
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {

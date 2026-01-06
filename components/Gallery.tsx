@@ -2,12 +2,12 @@
 import React, { useState, useRef } from 'react';
 
 const galleryImages = [
-  { src: "https://placehold.co/800x600/ED5634/FFFFFF?text=Student+Activities", alt: "Student Activities", category: "Education" },
-  { src: "https://placehold.co/800x600/1A1A1A/FFFFFF?text=Women+Training", alt: "Women Training", category: "Empowerment" },
-  { src: "https://placehold.co/800x600/406E8E/FFFFFF?text=Cleanliness+Drive", alt: "Cleanliness Drive", category: "Environment" },
-  { src: "https://placehold.co/800x600/2c3e50/FFFFFF?text=Kasol+Center", alt: "Kasol Center", category: "Campus" },
-  { src: "https://placehold.co/800x600/f39c12/FFFFFF?text=Volunteers", alt: "Volunteers Group", category: "Community" },
-  { src: "https://placehold.co/800x600/27ae60/FFFFFF?text=Medical+Camp", alt: "Medical Camp", category: "Health" },
+  { src: "/heroimg.jpg", alt: "Student Activities", category: "Education" },
+  { src: "/iceimg.jpg", alt: "Women Training", category: "Empowerment" },
+  { src: "/heroimg.jpg", alt: "Cleanliness Drive", category: "Environment" },
+  { src: "/iceimg.jpg", alt: "Kasol Center", category: "Campus" },
+  { src: "/heroimg.jpg", alt: "Volunteers Group", category: "Community" },
+  { src: "/heroimg.jpg", alt: "Medical Camp", category: "Health" },
 ];
 
 export const Gallery = () => {

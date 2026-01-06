@@ -69,18 +69,21 @@ export const Testimonials = () => {
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          {/* Main Card Display */}
-          <div className="overflow-hidden relative min-h-[300px] flex items-center">
+          {/* Main Card Display - Using Grid for adaptive height */}
+          <div className="grid grid-cols-1 items-center">
             {testimonials.map((testimonial, index) => {
-              // Calculate position for transition effect
-              let position = 'translate-x-full opacity-0';
-              if (index === activeIndex) position = 'translate-x-0 opacity-100';
-              if (index === (activeIndex - 1 + testimonials.length) % testimonials.length) position = '-translate-x-full opacity-0';
+              // Calculate position/visibility
+              const isActive = index === activeIndex;
+              const isPrev = index === (activeIndex - 1 + testimonials.length) % testimonials.length;
+              const isNext = index === (activeIndex + 1) % testimonials.length;
 
+              let transitionClass = 'opacity-0 scale-95 pointer-events-none z-0';
+              if (isActive) transitionClass = 'opacity-100 scale-100 z-10 relative';
+              
               return (
                 <div 
                   key={testimonial.id}
-                  className={`absolute top-0 left-0 w-full h-full transition-all duration-700 ease-in-out transform ${position} flex items-center justify-center`}
+                  className={`col-start-1 row-start-1 transition-all duration-700 ease-in-out transform ${transitionClass} flex items-center justify-center w-full py-4`}
                 >
                   <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row items-center gap-8 border border-gray-100">
                     <div className="flex-shrink-0">

@@ -35,7 +35,7 @@ export default function Home() {
             <div className="order-2 lg:order-1">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
                     <img 
-                        src="https://placehold.co/600x600/ED5634/FFFFFF?text=Kasol+Center" 
+                        src="/iceimg.jpg" 
                         alt="Kasol Center - Our Origin" 
                         className="w-full h-full object-cover transform transition group-hover:scale-105 duration-700"
                     />
