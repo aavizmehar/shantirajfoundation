@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Button } from './ui/Button';
 
 export const DonationCTA = () => {
@@ -24,15 +25,21 @@ export const DonationCTA = () => {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Button variant="primary" className="text-lg px-10 py-4 shadow-2xl shadow-primary/40">
-              Donate Now
-            </Button>
-            <Button variant="outline-white" className="text-lg px-8 py-4">
-              Sponsor a Child
-            </Button>
-            <Button variant="glass" className="text-lg px-8 py-4">
-              Support Women Training
-            </Button>
+            <Link href="/donate">
+              <Button variant="primary" className="text-lg px-10 py-4 shadow-2xl shadow-primary/40">
+                Donate Now
+              </Button>
+            </Link>
+            <Link href="/donate">
+              <Button variant="outline-white" className="text-lg px-8 py-4">
+                Sponsor a Child
+              </Button>
+            </Link>
+            <Link href="/donate">
+              <Button variant="glass" className="text-lg px-8 py-4">
+                Support Women Training
+              </Button>
+            </Link>
           </div>
           
           {/* Trust Indicators */}

@@ -1,6 +1,7 @@
 import React from 'react';
-import { heroContent } from '@/data/mockData';
 import { Button } from './ui/Button';
+import Link from 'next/link';
+import { heroContent } from '@/data/mockData';
 
 export const Hero = () => {
   return (
@@ -31,15 +32,21 @@ export const Hero = () => {
 
         {/* Buttons Group */}
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-2xl justify-center animate-fade-in-up delay-200">
-          <Button variant="primary" className="text-lg px-8 py-4 w-full sm:w-auto">
-            {heroContent.ctaPrimary}
-          </Button>
-          <Button variant="outline-white" className="text-lg px-8 py-4 w-full sm:w-auto">
-            {heroContent.ctaSecondary}
-          </Button>
-          <Button variant="glass" className="text-lg px-8 py-4 w-full sm:w-auto">
-             {heroContent.ctaTertiary}
-          </Button>
+          <Link href="/volunteer" className="w-full sm:w-auto">
+            <Button variant="primary" className="text-lg px-8 py-4 w-full">
+              {heroContent.ctaPrimary}
+            </Button>
+          </Link>
+          <Link href="/free-stay" className="w-full sm:w-auto">
+            <Button variant="outline-white" className="text-lg px-8 py-4 w-full">
+              {heroContent.ctaSecondary}
+            </Button>
+          </Link>
+          <Link href="/donate" className="w-full sm:w-auto">
+            <Button variant="glass" className="text-lg px-8 py-4 w-full">
+               {heroContent.ctaTertiary}
+            </Button>
+          </Link>
         </div>
 
         {/* Side Badge (Absolute Positioned) */}

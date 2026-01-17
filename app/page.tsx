@@ -1,4 +1,5 @@
 import { Hero } from '@/components/Hero';
+import Link from 'next/link';
 import { InfoStrip } from '@/components/InfoStrip';
 import { Programs } from '@/components/Programs';
 import { FreeStay } from '@/components/FreeStay';
@@ -54,7 +55,9 @@ export default function Home() {
                 {aboutContent.description}
                 </p>
                 
-                <Button variant="secondary" className="px-8 py-4 text-lg">Read Complete Story</Button>
+                <Link href="/about">
+                    <Button variant="secondary" className="px-8 py-4 text-lg">Read Complete Story</Button>
+                </Link>
             </div>
             </div>
         </Reveal>
