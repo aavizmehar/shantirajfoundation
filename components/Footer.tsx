@@ -30,12 +30,12 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-6 text-white border-l-4 border-primary pl-3">Quick Links</h4>
             <ul className="space-y-3 text-sm">
               <li><Link href="/" className="text-gray-400 hover:text-primary transition-colors">Home</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-primary transition-colors">About</Link></li>
-              <li><Link href="#programs" className="text-gray-400 hover:text-primary transition-colors">Programs</Link></li>
-              <li><Link href="#free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay</Link></li>
-              <li><Link href="#volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer</Link></li>
-              <li><Link href="#donate" className="text-gray-400 hover:text-primary transition-colors">Donate</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-primary transition-colors">About</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Programs</Link></li>
+              <li><Link href="/free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay</Link></li>
+              <li><Link href="/volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer</Link></li>
+              <li><Link href="/donate" className="text-gray-400 hover:text-primary transition-colors">Donate</Link></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -43,12 +43,12 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white border-l-4 border-primary pl-3">Our Programs</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link href="#education" className="text-gray-400 hover:text-primary transition-colors">Free Education</Link></li>
-              <li><Link href="#women-empowerment" className="text-gray-400 hover:text-primary transition-colors">Women Empowerment</Link></li>
-              <li><Link href="#youth" className="text-gray-400 hover:text-primary transition-colors">Youth Empowerment</Link></li>
-              <li><Link href="#clean-country" className="text-gray-400 hover:text-primary transition-colors">Clean India Mission</Link></li>
-              <li><Link href="#health" className="text-gray-400 hover:text-primary transition-colors">Health Camps</Link></li>
-              <li><Link href="#free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay Program</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Free Education</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Women Empowerment</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Youth Empowerment</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Clean India Mission</Link></li>
+              <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Health Camps</Link></li>
+              <li><Link href="/free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay Program</Link></li>
             </ul>
           </div>
 
@@ -97,9 +97,9 @@ export const Footer = () => {
             &copy; {new Date().getFullYear()} Shantiraj Foundation. All rights reserved.
           </div>
           <div className="flex space-x-6">
-            <Link href="#terms" className="hover:text-white transition-colors">Terms of Use</Link>
-            <Link href="#privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#refund" className="hover:text-white transition-colors">Refund Policy</Link>
+            <Link href="/terms-of-use" className="hover:text-white transition-colors">Terms of Use</Link>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/refund-policy" className="hover:text-white transition-colors">Refund Policy</Link>
           </div>
         </div>
       </div>
