@@ -18,7 +18,7 @@ export const Programs = () => {
             key={index} 
             className="bg-surface rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group flex flex-col h-full"
           >
-            <div className="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-3xl text-primary group-hover:from-primary group-hover:to-orange-600 group-hover:text-white transition-all duration-500 shadow-sm group-hover:shadow-md transform group-hover:-rotate-3">
+            <div className="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 text-3xl text-primary group-hover:from-primary group-hover:to-yellow-600 group-hover:text-white transition-all duration-500 shadow-sm group-hover:shadow-md transform group-hover:-rotate-3">
               {program.icon}
             </div>
             

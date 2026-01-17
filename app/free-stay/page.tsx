@@ -95,7 +95,7 @@ export default function FreeStay() {
 
                         {/* 11 Days - Highlighted */}
                         <div className="bg-secondary p-8 rounded-2xl border-2 border-primary shadow-2xl transform md:-translate-y-4 relative text-white">
-                             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-primary to-orange-600 text-white text-xs px-4 py-1 rounded-full font-bold shadow-lg uppercase tracking-wider">Most Popular</div>
+                             <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-r from-primary to-yellow-600 text-white text-xs px-4 py-1 rounded-full font-bold shadow-lg uppercase tracking-wider">Most Popular</div>
                             <div className="text-6xl font-bold text-white mb-2">11</div>
                             <div className="font-semibold text-gray-300 uppercase tracking-wider mb-8">Days</div>
                             <ul className="text-left space-y-4 mb-8 text-sm text-gray-300">
@@ -124,7 +124,7 @@ export default function FreeStay() {
 
             {/* Application CTA */}
             <Reveal width="100%">
-                <div className="text-center bg-gradient-to-r from-primary/10 to-orange-100/50 p-12 rounded-3xl border border-primary/10">
+                <div className="text-center bg-gradient-to-r from-primary/10 to-yellow-100/50 p-12 rounded-3xl border border-primary/10">
                     <h2 className="text-3xl font-bold text-secondary mb-6 font-heading">Ready to Join the Movement?</h2>
                     <p className="text-text-light mb-8 max-w-xl mx-auto text-lg">
                         We have limited slots (15 per batch). Apply now to secure your spot in the next cohort.

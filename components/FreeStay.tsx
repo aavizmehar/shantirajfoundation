@@ -16,7 +16,7 @@ export const FreeStay = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           
           {/* Feature 1 */}
-          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(237,86,52,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
+          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(234,173,61,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
             <div className="text-5xl mb-6 text-primary/80 group-hover:text-primary transition-colors flex justify-center">
                 <FaHome />
             </div>
@@ -25,7 +25,7 @@ export const FreeStay = () => {
           </div>
 
           {/* Feature 2 */}
-          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(237,86,52,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
+          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(234,173,61,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
             <div className="text-5xl mb-6 text-primary/80 group-hover:text-primary transition-colors flex justify-center">
                 <FaClock />
             </div>
@@ -34,7 +34,7 @@ export const FreeStay = () => {
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(237,86,52,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
+          <div className="bg-white p-8 rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_30px_rgba(234,173,61,0.15)] transition-all duration-300 transform hover:-translate-y-2 group">
             <div className="text-5xl mb-6 text-primary/80 group-hover:text-primary transition-colors flex justify-center">
                 <FaUtensils />
             </div>
