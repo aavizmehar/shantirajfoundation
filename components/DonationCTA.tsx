@@ -7,7 +7,7 @@ export const DonationCTA = () => {
       {/* Background Image with Warm Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://placehold.co/1920x1080/ED5634/FFFFFF?text=Helping+Hands+Warmth" 
+          src="https://placehold.co/1920x1080/eaad3d/FFFFFF?text=Helping+Hands+Warmth" 
           alt="Emotional support" 
           className="w-full h-full object-cover"
         />

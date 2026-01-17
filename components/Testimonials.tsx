@@ -6,7 +6,7 @@ const testimonials = [
     id: 1,
     name: "Aarav Sharma",
     role: "Volunteer",
-    image: "https://placehold.co/100x100/ED5634/FFFFFF?text=AS",
+    image: "https://placehold.co/100x100/eaad3d/FFFFFF?text=AS",
     text: "Volunteering at the Kasol center was life-changing. The free stay program allowed me to focus entirely on teaching the kids without worrying about expenses."
   },
   {

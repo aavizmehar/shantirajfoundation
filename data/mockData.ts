@@ -31,7 +31,7 @@ export const navLinks = [
       id: 1,
       title: "Education for All",
       description: "Providing books, uniforms, and tuition to underprivileged children in rural districts.",
-      image: "https://placehold.co/600x400/ED5634/FFFFFF?text=Education",
+      image: "https://placehold.co/600x400/eaad3d/FFFFFF?text=Education",
     },
     {
       id: 2,

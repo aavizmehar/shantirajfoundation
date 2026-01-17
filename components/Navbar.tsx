@@ -41,8 +41,8 @@ export const Navbar = () => {
               <Image
                 src="/logo.png"        // put logo inside /public
                 alt="Shantiraj Foundation Logo"
-                width={200}
-                height={200}
+                width={250}
+                height={250}
                 priority
                 className="object-contain"
               />
