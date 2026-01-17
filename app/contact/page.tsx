@@ -9,9 +9,15 @@ export default function Contact() {
   return (
     <main className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="pt-32 pb-16 bg-secondary text-white text-center">
-        <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6">Contact Us</h1>
-        <p className="text-xl text-gray-400">We'd love to hear from you. Get in touch!</p>
+      <section className="relative pt-32 pb-16 bg-secondary text-white text-center overflow-hidden">
+         <div className="absolute inset-0 z-0">
+             <img src="/map.jpg" alt="Locations" className="w-full h-full object-cover opacity-30" />
+             <div className="absolute inset-0 bg-secondary/90"></div>
+        </div>
+        <div className="relative z-10">
+            <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6">Contact Us</h1>
+            <p className="text-xl text-gray-400">We'd love to hear from you. Get in touch!</p>
+        </div>
       </section>
 
       <Section className="py-20">

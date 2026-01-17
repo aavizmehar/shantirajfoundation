@@ -11,12 +11,16 @@ export default function FreeStay() {
     <main className="min-h-screen flex flex-col bg-gray-50">
       <Navbar />
       
-      <section className="pt-32 pb-24 bg-gradient-to-br from-secondary via-gray-900 to-black text-white relative overflow-hidden">
-         {/* Abstract Shapes */}
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20 pointer-events-none">
-            <div className="absolute top-10 left-10 w-72 h-72 bg-primary rounded-full blur-[100px]"></div>
-            <div className="absolute bottom-10 right-10 w-96 h-96 bg-accent rounded-full blur-[120px]"></div>
-        </div>
+      <section className="pt-32 pb-24 bg-secondary text-white relative overflow-hidden">
+         {/* Background Image */}
+         <div className="absolute inset-0 z-0">
+            <img 
+                src="/young-friends-top-mountain-enjoying-mesmerizing-view.jpg" 
+                alt="Free Stay in Kasol" 
+                className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60"></div>
+         </div>
         
         <div className="container mx-auto px-4 text-center relative z-10">
           <Reveal width="100%">

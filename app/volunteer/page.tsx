@@ -8,9 +8,21 @@ export default function Volunteer() {
   return (
     <main className="min-h-screen flex flex-col">
       <Navbar />
-      <section className="pt-32 pb-20 bg-primary text-white text-center">
-        <h1 className="text-4xl md:text-6xl font-bold font-heading mb-6">Volunteer With Us</h1>
-        <p className="text-xl max-w-2xl mx-auto">Become part of India’s strongest ground-level community team.</p>
+      <section className="relative pt-32 pb-20 bg-primary text-white text-center overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="/group-happy-diverse-volunteers.jpg" 
+            alt="Happy Volunteers" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+        </div>
+
+        <div className="relative z-10 container mx-auto px-4">
+            <h1 className="text-4xl md:text-6xl font-bold font-heading mb-6 drop-shadow-md">Volunteer With Us</h1>
+            <p className="text-xl max-w-2xl mx-auto drop-shadow-sm">Become part of India’s strongest ground-level community team.</p>
+        </div>
       </section>
 
       <Section className="py-20">

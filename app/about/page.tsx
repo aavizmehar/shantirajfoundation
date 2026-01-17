@@ -12,7 +12,10 @@ export default function About() {
       
       {/* Hero / Header */}
       <section className="pt-32 pb-20 bg-secondary text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://placehold.co/1920x600/1a1a1a/222222?text=Pattern')] opacity-10"></div>
+        <div className="absolute inset-0 z-0">
+             <img src="/heroimg.jpg" alt="About Us" className="w-full h-full object-cover opacity-40" />
+             <div className="absolute inset-0 bg-secondary/80 mix-blend-multiply"></div>
+        </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <Reveal width="100%">
             <span className="text-primary font-bold tracking-widest uppercase mb-4 block">Our Essence</span>

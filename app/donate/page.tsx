@@ -14,7 +14,7 @@ export default function Donate() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://placehold.co/1920x1080/eaad3d/FFFFFF?text=Make+a+Difference" 
+            src="/view-hands-holding-red-heart-represent-affection.jpg" 
             alt="Donate Hero" 
             className="w-full h-full object-cover"
           />
