@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import { navLinks, contactInfo } from '@/data/mockData';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaWhatsapp } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6'; 
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-[#111] text-white pt-12 pb-8 md:pt-20 md:pb-10 border-t border-gray-900 font-sans">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,43 +59,57 @@ export const Footer = () => {
             <div className="space-y-4 text-sm text-gray-400">
               <div className="flex items-start">
                 <span className="mr-3 text-primary mt-1">📍</span>
-                <p>{contactInfo.address}</p>
+                <p>Village Chowki 75/4, Malana road,<br />Post Jari, District Kullu,<br />Himachal Pradesh - 175105</p>
               </div>
-              <div className="flex items-center">
-                <span className="mr-3 text-primary">📞</span>
-                <p>{contactInfo.phone}</p>
+              <div className="flex flex-col space-y-2">
+                <div className="flex items-center">
+                  <span className="mr-3 text-primary">📞</span>
+                  <a href="tel:01902358711" className="hover:text-primary">01902-358711</a>
+                </div>
+                <div className="flex items-center">
+                  <span className="mr-3 text-green-500"><FaWhatsapp size={16}/></span>
+                  <a href="https://wa.me/919816636450" target="_blank" rel="noreferrer" className="hover:text-primary">+91 98166 36450</a>
+                </div>
               </div>
-              <div className="flex items-center">
-                <span className="mr-3 text-primary">✉️</span>
-                <p>{contactInfo.email}</p>
+              <div className="flex flex-col space-y-1">
+                <div className="flex items-center">
+                  <span className="mr-3 text-primary">✉️</span>
+                  <a href="mailto:info@shantirajfoundation.org" className="hover:text-primary transition-colors">Info@shantirajfoundation.org</a>
+                </div>
+                <p className="ml-7 text-xs opacity-75">Help@shantirajfoundation.org</p>
               </div>
+              
               <div className="pt-4">
                 <h5 className="text-white font-semibold mb-3">Follow Us</h5>
-                <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#1877F2] hover:text-white transition-all duration-300 group">
-                    <FaFacebookF className="group-hover:scale-110 transition-transform" />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#1DA1F2] hover:text-white transition-all duration-300 group">
-                    <FaTwitter className="group-hover:scale-110 transition-transform" />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#E1306C] hover:text-white transition-all duration-300 group">
-                    <FaInstagram className="group-hover:scale-110 transition-transform" />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#0077B5] hover:text-white transition-all duration-300 group">
-                    <FaLinkedinIn className="group-hover:scale-110 transition-transform" />
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#FF0000] hover:text-white transition-all duration-300 group">
-                    <FaYoutube className="group-hover:scale-110 transition-transform" />
-                  </a>
+                <div className="flex flex-wrap gap-3">
+                  <SocialIcon 
+                    href="https://www.facebook.com/share/16pUbxdqDR/?mibextid=wwXIfr" 
+                    icon={<FaFacebookF />} 
+                    hoverBg="hover:bg-[#1877F2]" 
+                  />
+                  <SocialIcon 
+                    href="https://www.instagram.com/shantirajfoundationofficial?igsh=MWJ2d3NvOHBicHBodA==" 
+                    icon={<FaInstagram />} 
+                    hoverBg="hover:bg-[#E1306C]" 
+                  />
+                  <SocialIcon 
+                    href="https://youtube.com/@shantirajfoundation-r1e?si=cphl7f3FH11uMC6X" 
+                    icon={<FaYoutube />} 
+                    hoverBg="hover:bg-[#FF0000]" 
+                  />
+                  {/* Keep placeholders or remove if not needed */}
+                  <SocialIcon href="#" icon={<FaXTwitter />} hoverBg="hover:bg-black" />
+                  <SocialIcon href="#" icon={<FaLinkedinIn />} hoverBg="hover:bg-[#0077B5]" />
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
           <div className="mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Shantiraj Foundation. All rights reserved.
+            &copy; {currentYear} Shantiraj Foundation. All rights reserved.
           </div>
           <div className="flex space-x-6">
             <Link href="/terms-of-use" className="hover:text-white transition-colors">Terms of Use</Link>
@@ -106,3 +121,17 @@ export const Footer = () => {
     </footer>
   );
 };
+
+/* Helper Component for Social Icons */
+const SocialIcon = ({ href, icon, hoverBg }) => (
+  <a 
+    href={href} 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className={`w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white transition-all duration-300 group ${hoverBg}`}
+  >
+    <span className="group-hover:scale-110 transition-transform">
+      {icon}
+    </span>
+  </a>
+);
