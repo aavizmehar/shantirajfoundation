@@ -122,8 +122,14 @@ export const Footer = () => {
   );
 };
 
-/* Helper Component for Social Icons */
-const SocialIcon = ({ href, icon, hoverBg }) => (
+/* Helper Component for Social Icons with TypeScript Definitions */
+interface SocialIconProps {
+  href: string;
+  icon: React.ReactNode;
+  hoverBg: string;
+}
+
+const SocialIcon = ({ href, icon, hoverBg }: SocialIconProps) => (
   <a 
     href={href} 
     target="_blank" 
