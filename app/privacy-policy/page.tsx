@@ -1,43 +1,51 @@
 import React from 'react';
-import { Section, SectionHeading } from '@/components/ui/Section';
+import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 
-export default function PrivacyPolicyPage() {
+export default function PrivacyPolicy() {
   return (
-    <main className="pt-20">
-      <Section>
-        <div className="max-w-4xl mx-auto">
-          <SectionHeading title="Privacy Policy" subtitle="Last Updated: January 17, 2026" />
-          
-          <div className="prose prose-lg text-text-light max-w-none">
-            <p>
-              At Shantiraj Foundation, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our website or use our services.
-            </p>
+    <main className="min-h-screen flex flex-col bg-gray-50">
+      <Navbar />
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 pt-32">
+        <div className="max-w-4xl mx-auto bg-white p-8 sm:p-12 rounded-lg shadow-md">
+          <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
+          <p className="text-sm text-gray-500 mb-8">Your privacy is important to us.</p>
 
-            <h3 className="text-secondary font-bold text-xl mt-8 mb-4">1. Information We Collect</h3>
-            <p>
-              We may collect personal information such as your name, email address, phone number, and mailing address when you donate, volunteer, or subscribe to our newsletter.
-            </p>
-
-            <h3 className="text-secondary font-bold text-xl mt-8 mb-4">2. How We Use Your Information</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>To process donations and issue receipts.</li>
-              <li>To communicate with you about our programs, events, and impact.</li>
-              <li>To improve our website and user experience.</li>
-              <li>To comply with legal obligations.</li>
+          <div className="prose lg:prose-lg max-w-none">
+            <h2>1. Information We Collect</h2>
+            <p>We may collect:</p>
+            <ul>
+              <li>Name, age, gender</li>
+              <li>Contact details (email, phone)</li>
+              <li>Volunteer preferences</li>
+              <li>Uploaded documents (ID, resume)</li>
             </ul>
 
-            <h3 className="text-secondary font-bold text-xl mt-8 mb-4">3. Data Security</h3>
-            <p>
-              We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the internet is 100% secure.
-            </p>
+            <h2>2. How We Use Information</h2>
+            <p>Collected information is used for:</p>
+            <ul>
+              <li>Volunteer selection & communication</li>
+              <li>Program planning</li>
+              <li>Internal records</li>
+              <li>Reporting & compliance</li>
+            </ul>
+            <p>We do not sell or share personal data with third parties.</p>
 
-            <h3 className="text-secondary font-bold text-xl mt-8 mb-4">4. Contact Us</h3>
-            <p>
-              If you have any questions about this Privacy Policy, please contact us at info@shantirajfoundation.org.
-            </p>
+            <h2>3. Data Protection</h2>
+            <p>We use reasonable security measures to protect your data. Access is limited to authorized personnel only.</p>
+
+            <h2>4. Cookies</h2>
+            <p>Our website may use basic cookies to improve user experience.</p>
+
+            <h2>5. Consent</h2>
+            <p>By submitting forms on our website, you consent to our data usage policies.</p>
+
+            <h2>6. Policy Updates</h2>
+            <p>Privacy policy may be updated periodically. Please review regularly.</p>
           </div>
         </div>
-      </Section>
+      </div>
+      <Footer />
     </main>
   );
 }

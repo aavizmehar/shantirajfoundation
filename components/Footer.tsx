@@ -18,7 +18,7 @@ export const Footer = () => {
               Shantiraj<span className="text-primary">Foundation</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed text-sm">
-              Shantiraj Foundation is a non-profit organization dedicated to empowering underprivileged communities through education, healthcare, and sustainable development.
+              Shantiraj Foundation is a non-profit initiative working towards education, women empowerment, environment & youth leadership.
             </p>
             <div className="text-sm text-gray-500">
               <p className="mb-1">Reg. No: 1234/5678/2024</p>
@@ -35,7 +35,6 @@ export const Footer = () => {
               <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Programs</Link></li>
               <li><Link href="/free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay</Link></li>
               <li><Link href="/volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer</Link></li>
-              <li><Link href="/donate" className="text-gray-400 hover:text-primary transition-colors">Donate</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
