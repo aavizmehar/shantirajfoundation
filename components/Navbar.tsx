@@ -44,7 +44,7 @@ export const Navbar = () => {
                 width={200}
                 height={200}
                 priority
-                className="object-contain"
+                className={cn("object-contain", !scrolled && "logo-on-dark")}
               />
           
             </Link>
@@ -65,12 +65,6 @@ export const Navbar = () => {
 
             {/* Desktop Actions */}
             <div className="hidden xl:flex items-center space-x-6 z-50">
-              <Link href="/volunteer" className={cn("font-medium transition-colors", linkColor)}>
-                Volunteer
-              </Link>
-              <Link href="/login" className={cn("font-medium transition-colors", linkColor)}>
-                Login
-              </Link>
               <Link href="/donate">
                 <Button variant="primary" className="py-2 px-6 text-sm">Donate</Button>
               </Link>

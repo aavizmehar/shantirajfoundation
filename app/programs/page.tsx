@@ -59,10 +59,9 @@ export default function Programs() {
                                 <div className="pt-4 border-t border-gray-200 mt-6">
                                     <h4 className="font-semibold text-secondary mb-3 uppercase text-sm tracking-wider">Key Focus Areas</h4>
                                     <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-4 text-text-light">
-                                        <li className="flex items-center"><span className="w-2 h-2 bg-primary rounded-full mr-2"></span>Community Driven</li>
-                                        <li className="flex items-center"><span className="w-2 h-2 bg-primary rounded-full mr-2"></span>Sustainable Impact</li>
-                                        <li className="flex items-center"><span className="w-2 h-2 bg-primary rounded-full mr-2"></span>Volunteer Led</li>
-                                        <li className="flex items-center"><span className="w-2 h-2 bg-primary rounded-full mr-2"></span>Scalable Model</li>
+                                        {program.focusAreas.map((area, i) => (
+                                            <li key={i} className="flex items-center"><span className="w-2 h-2 bg-primary rounded-full mr-2"></span>{area}</li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
@@ -77,3 +76,4 @@ export default function Programs() {
     </main>
   );
 }
+

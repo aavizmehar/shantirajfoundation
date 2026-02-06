@@ -42,7 +42,7 @@ export const Hero = () => {
               {heroContent.ctaSecondary}
             </Button>
           </Link>
-          <Link href="/donate" className="w-full sm:w-auto">
+          <Link href="/partner" className="w-full sm:w-auto">
             <Button variant="glass" className="text-lg px-8 py-4 w-full">
                {heroContent.ctaTertiary}
             </Button>

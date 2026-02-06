@@ -2,12 +2,10 @@
 import React, { useState, useRef } from 'react';
 
 const galleryImages = [
-  { src: "/heroimg.jpg", alt: "Student Activities", category: "Education" },
-  { src: "/iceimg.jpg", alt: "Women Training", category: "Empowerment" },
-  { src: "/heroimg.jpg", alt: "Cleanliness Drive", category: "Environment" },
-  { src: "/iceimg.jpg", alt: "Kasol Center", category: "Campus" },
-  { src: "/heroimg.jpg", alt: "Volunteers Group", category: "Community" },
-  { src: "/heroimg.jpg", alt: "Medical Camp", category: "Health" },
+  { src: "/group-happy-diverse-volunteers.jpg", alt: "Volunteers working", category: "Community" },
+  { src: "/heroimg.jpg", alt: "Kids studying", category: "Education" },
+  { src: "/iceimg.jpg", alt: "Clean drives", category: "Environment" },
+  { src: "/young-friends-top-mountain-enjoying-mesmerizing-view.jpg", alt: "Campfire moments", category: "Culture" },
 ];
 
 export const Gallery = () => {
@@ -28,8 +26,8 @@ export const Gallery = () => {
     <section className="py-20 bg-surface overflow-hidden relative group/section">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-10 flex justify-between items-end">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold font-heading text-secondary mb-2">Life at Shantiraj</h2>
-          <p className="text-text-light">Glimpses of our daily mission in action.</p>
+          <h2 className="text-3xl md:text-4xl font-bold font-heading text-secondary mb-2">Real Stories</h2>
+          <p className="text-text-light">“A little time can change someone’s tomorrow.”</p>
         </div>
         
         {/* Navigation Buttons */}

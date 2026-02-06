@@ -1,18 +1,19 @@
 export const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "About Us", href: "/about" },
     { name: "Programs", href: "/programs" },
-    { name: "Free Stay", href: "/free-stay" },
-    { name: "Campaigns", href: "/campaigns" },
-    { name: "Branches", href: "/branches" },
+    { name: "Volunteer", href: "/volunteer" },
+    { name: "Impact Stay", href: "/free-stay" },
+    { name: "Partner With Us", href: "/partner" },
+    { name: "Contact", href: "/contact" },
   ];
   
   export const heroContent = {
-    title: "Building a Better India, One Life at a Time.",
-    subtitle: "Education • Women • Youth • Clean Nation • Health • Community",
+    title: "Stay. Serve. Transform Lives.",
+    subtitle: "A youth & women-led social foundation creating real impact through education, environment & community work.",
     ctaPrimary: "Join as Volunteer",
-    ctaSecondary: "Apply for Free Stay",
-    ctaTertiary: "Donate Now",
+    ctaSecondary: "Experience Impact Stay",
+    ctaTertiary: "Partner With Us",
     badge: "Est. 2024 | Kasol HQ | 10 India Branches by 2026",
   };
   
@@ -49,6 +50,7 @@ export const navLinks = [
   
   export const contactInfo = {
     email: "info@shantirajfoundation.org",
-    phone: "+91 98765 43210",
-    address: "123, Peace Avenue, New Delhi, India",
+    phone: "+91 98166 36450",
+    address: "Kasol, Himachal Pradesh",
+    instagram: "shantirajfoundationofficial",
   };
