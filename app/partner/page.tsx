@@ -41,10 +41,10 @@ export default function Partner() {
                     <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-6 font-heading">Who We Partner With</h2>
                 </Reveal>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <PartnerCard icon={<FaUserTie />} title="Investors" />
-                    <PartnerCard icon={<FaBuilding />} title="CSR" />
-                    <PartnerCard icon={<FaHandshake />} title="Politicians" />
-                    <PartnerCard icon={<FaPiggyBank />} title="Institutions" />
+                    <PartnerCard icon={<FaBuilding />} title="Institutions & Organizations" />
+                    <PartnerCard icon={<FaUserTie />} title="Supporters & Leaders" />
+                    <PartnerCard icon={<FaHandshake />} title="CSR & Social Investors" />
+                    <PartnerCard icon={<FaPiggyBank />} title="Community Leaders" />
                 </div>
             </div>
 
@@ -52,9 +52,9 @@ export default function Partner() {
                 <div className="bg-white rounded-3xl p-10 md:p-16 mb-16 shadow-2xl border border-gray-100">
                     <h3 className="text-3xl font-bold text-secondary mb-8 text-center font-heading">How You Can Support</h3>
                     <div className="grid md:grid-cols-3 gap-8 text-center">
-                        <SupportItem title="Space" description="Provide space for our community centers and workshops." />
-                        <SupportItem title="Infrastructure" description="Help us build and equip our facilities." />
-                        <SupportItem title="Expansion Funding" description="Fuel our growth to reach more communities across India." />
+                        <SupportItem title="Space & Infrastructure" description="Provide space and help us build & equip our facilities." />
+                        <SupportItem title="Program Development" description="Contribute to the creation and enhancement of our programs." />
+                        <SupportItem title="Expansion & Mentorship" description="Fuel our growth to reach more communities and guide our leaders." />
                     </div>
                 </div>
             </Reveal>

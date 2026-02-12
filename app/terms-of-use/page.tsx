@@ -9,7 +9,7 @@ export default function TermsOfUse() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 pt-32">
         <div className="max-w-4xl mx-auto bg-white p-8 sm:p-12 rounded-lg shadow-md">
           <h1 className="text-3xl font-bold mb-6">Terms & Conditions</h1>
-          <p className="text-sm text-gray-500 mb-8">Effective Date: [Add Date]</p>
+          <p className="text-sm text-gray-500 mb-8">Effective Date: February 12, 2026</p>
 
           <div className="prose lg:prose-lg max-w-none">
             <p>Welcome to Shantiraj Foundation. By accessing our website or applying for any program, you agree to comply with the following terms and conditions.</p>
