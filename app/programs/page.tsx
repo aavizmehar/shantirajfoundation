@@ -38,7 +38,7 @@ export default function Programs() {
                             <div className="flex-1 w-full">
                                 <div className="relative group">
                                     <div className="absolute inset-0 bg-gradient-to-tr from-primary to-yellow-400 rounded-3xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-                                    <div classNameName="rounded-3xl h-64 md:h-96 w-full flex items-center justify-center text-8xl text-primary/80 shadow-2xl relative z-10 overflow-hidden border border-gray-100 group-hover:scale-[1.02] transition-transform duration-500">
+                                    <div className="rounded-3xl h-64 md:h-96 w-full flex items-center justify-center text-8xl text-primary/80 shadow-2xl relative z-10 overflow-hidden border border-gray-100 group-hover:scale-[1.02] transition-transform duration-500">
                                         <Image 
                                             src={program.image} 
                                             alt={program.title} 
