@@ -9,7 +9,7 @@ export const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/heroimg.jpg" 
+          src="raw images\rawimg13.jpg" 
           alt="Shantiraj Foundation Work" 
           className="w-full h-full object-cover"
         />
