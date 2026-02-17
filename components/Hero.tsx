@@ -2,16 +2,18 @@ import React from 'react';
 import { Button } from './ui/Button';
 import Link from 'next/link';
 import { heroContent } from '@/data/mockData';
+import Image from 'next/image';
 
 export const Hero = () => {
   return (
     <div className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="raw images\rawimg13.jpg" 
+        <Image 
+          src="/raw images/rawimg13.jpg" 
           alt="Shantiraj Foundation Work" 
-          className="w-full h-full object-cover"
+          fill
+          style={{objectFit: "cover"}}
         />
         {/* Dark Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/70 via-secondary/50 to-secondary/90"></div>

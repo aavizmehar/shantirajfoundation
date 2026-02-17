@@ -3,6 +3,7 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Section } from '@/components/ui/Section';
 import { Reveal } from '@/components/ui/Reveal';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
       {/* Hero / Header */}
       <section className="pt-72 pb-20 bg-secondary text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-             <img src="\raw images\rawimg1.jpg" alt="About Us" className="w-full h-full object-cover opacity-40" />
+             <Image src="/raw images/rawimg1.jpg" alt="About Us" fill style={{objectFit: "cover"}} className="opacity-40" />
              {/* <div className="absolute inset-0 bg-secondary/80 mix-blend-multiply"></div> */}
         </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

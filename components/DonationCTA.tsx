@@ -8,7 +8,7 @@ export const DonationCTA = () => {
       {/* Background Image with Warm Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/view-hands-holding-red-heart-represent-affection.jpg" 
+          src="/raw images/rawimg7.jpg" 
           alt="Community and love" 
           className="w-full h-full object-cover"
         />
