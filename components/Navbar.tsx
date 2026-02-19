@@ -104,13 +104,7 @@ export const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link
-                href="/volunteer"
-                className="text-2xl font-bold text-secondary border-b border-gray-100 pb-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Volunteer
-              </Link>
+             
               <Link
                 href="/login"
                 className="text-2xl font-bold text-secondary border-b border-gray-100 pb-2"
