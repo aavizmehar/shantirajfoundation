@@ -31,7 +31,7 @@ export const programsData = [
     title: "Health & Awareness Camps",
     description: "Providing free medical checkups, hygiene awareness, and rural outreach for essential healthcare.",
     link: "/programs#health",
-    image: "/raw images/rawimg2.jpg",
+    image: "/raw images/rawimg3.jpg",
     focusAreas: ['Health camps', 'Mental well-being', 'Hygiene awareness']
   }
 ];
