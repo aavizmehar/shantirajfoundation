@@ -7,7 +7,7 @@ export const programsData = [
     title: "Education for Children & Youth",
     description: "Supporting rural students with free tuitions, smart learning workshops, digital literacy, and scholarship support.",
     link: "/programs#education",
-    image: "/raw images/rawimg3.jpg",
+    image: "/raw images/rawimg1.jpg",
     focusAreas: ['Teaching support', 'Creative learning', 'Career guidance']
   },
   {
@@ -15,7 +15,7 @@ export const programsData = [
     title: "Women Empowerment",
     description: "Enabling financial independence through vocational skills, self-employment mentorship, and financial literacy.",
     link: "/programs#women-empowerment",
-    image: "/raw images/rawimg5.jpg",
+    image: "/raw images/rawimg11.jpg",
     focusAreas: ['Leadership & confidence building', 'Awareness sessions', 'Skill development']
   },
   {
@@ -31,7 +31,7 @@ export const programsData = [
     title: "Health & Awareness Camps",
     description: "Providing free medical checkups, hygiene awareness, and rural outreach for essential healthcare.",
     link: "/programs#health",
-    image: "/raw images/rawimg9.jpg",
+    image: "/raw images/rawimg2.jpg",
     focusAreas: ['Health camps', 'Mental well-being', 'Hygiene awareness']
   }
 ];

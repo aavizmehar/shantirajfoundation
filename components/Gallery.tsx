@@ -3,8 +3,8 @@ import React, { useState, useRef } from 'react';
 
 const galleryImages = [
   { src: "/raw images/rawimg1.jpg", alt: "Volunteers working", category: "Community" },
-  { src: "/raw images/rawimg2.jpg", alt: "Kids studying", category: "Education" },
-  { src: "/raw images/rawimg3.jpg", alt: "Clean drives", category: "Environment" },
+  { src: "/raw images/rawimg6.jpg", alt: "Kids studying", category: "Education" },
+  { src: "/raw images/rawimg13.jpg", alt: "Clean drives", category: "Environment" },
   { src: "/raw images/rawimg4.jpg", alt: "Campfire moments", category: "Culture" },
 ];
 

@@ -13,7 +13,7 @@ export default function Volunteer() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/group-happy-diverse-volunteers.jpg" 
+            src="/raw images/rawimg6.jpg" 
             alt="Happy Volunteers" 
             className="w-full h-full object-cover"
           />
