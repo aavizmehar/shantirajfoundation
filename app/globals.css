@@ -2,9 +2,9 @@
 
 :root {
   /* Brand Colors */
-  --primary: #eaad3d;
-  --secondary: #06224c;
-  --accent: #406E8E;
+  --primary: #4CAF50; /* Green */
+  --secondary: #3E2723; /* Dark Brown */
+  --accent: #A5D6A7; /* Light Green */
   --background: #F7F7F7;
   --surface: #FFFFFF;
   --text-main: #1A1A1A;

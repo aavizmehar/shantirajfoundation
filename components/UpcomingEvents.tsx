@@ -2,6 +2,7 @@ import React from 'react';
 import { Section, SectionHeading } from './ui/Section';
 import { eventsData } from '@/data/eventsData';
 import { Button } from './ui/Button';
+import Link from 'next/link';
 
 export const UpcomingEvents = () => {
   return (
@@ -35,7 +36,7 @@ export const UpcomingEvents = () => {
             </p>
 
             <Button variant="outline" className="w-full py-2 text-sm border-gray-200 text-secondary hover:border-primary">
-              View Details
+              Learn More
             </Button>
           </div>
         ))}
@@ -43,7 +44,9 @@ export const UpcomingEvents = () => {
 
       <div className="mt-12 text-center">
         <p className="text-text-light mb-4 italic">Want to host an event with us?</p>
-        <Button variant="primary">Collaborate Now</Button>
+        <Link href="/contact">
+          <Button variant="primary">Contact Us</Button>
+        </Link>
       </div>
     </Section>
   );

@@ -27,12 +27,12 @@ export const DonationCTA = () => {
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/volunteer">
               <Button variant="primary" className="text-lg px-10 py-4 shadow-2xl shadow-primary/40">
-                Join as Volunteer
+                Apply Now
               </Button>
             </Link>
-            <Link href="/partner">
+            <Link href="/contact">
               <Button variant="outline-white" className="text-lg px-8 py-4">
-                Partner With Us
+                Contact Us
               </Button>
             </Link>
           </div>

@@ -17,12 +17,16 @@ export const Footer = () => {
             <Link href="/" className="text-2xl font-bold font-heading text-white block mb-6">
               Shantiraj<span className="text-primary">Foundation</span>
             </Link>
-            <p className="text-gray-400 mb-6 leading-relaxed text-sm">
+            <p className="text-gray-400 mb-3 leading-relaxed text-sm">
               Shantiraj Foundation is a non-profit initiative working towards education, women empowerment, environment & youth leadership.
             </p>
+            <p className="text-gray-500 text-xs mb-6">In memory of Late Shanti Singh & Rajbali Singh.</p>
             <div className="text-sm text-gray-500">
+              <p className="mb-1 text-white font-semibold">Registered NGO</p>
               <p className="mb-1">Reg. No: 1234/5678/2024</p>
-              <p>Niti Aayog ID: HP/2024/0001</p>
+              <p className="mb-4">Niti Aayog ID: HP/2024/0001</p>
+              <p className="mb-1">Providing recognized volunteer certificates.</p>
+              <p>Featured in local news & community spotlights.</p>
             </div>
           </div>
           
@@ -33,7 +37,7 @@ export const Footer = () => {
               <li><Link href="/" className="text-gray-400 hover:text-primary transition-colors">Home</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-primary transition-colors">About</Link></li>
               <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Programs</Link></li>
-              <li><Link href="/free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay</Link></li>
+              <li><Link href="/volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer</Link></li>
               <li><Link href="/volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer</Link></li>
               <li><Link href="/contact" className="text-gray-400 hover:text-primary transition-colors">Contact</Link></li>
             </ul>
@@ -48,7 +52,7 @@ export const Footer = () => {
               <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Youth Empowerment</Link></li>
               <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Clean India Mission</Link></li>
               <li><Link href="/programs" className="text-gray-400 hover:text-primary transition-colors">Health Camps</Link></li>
-              <li><Link href="/free-stay" className="text-gray-400 hover:text-primary transition-colors">Free Stay Program</Link></li>
+              <li><Link href="/volunteer" className="text-gray-400 hover:text-primary transition-colors">Volunteer Exchange</Link></li>
             </ul>
           </div>
 
@@ -58,7 +62,7 @@ export const Footer = () => {
             <div className="space-y-4 text-sm text-gray-400">
               <div className="flex items-start">
                 <span className="mr-3 text-primary mt-1">📍</span>
-                <p>Village Chowki 75/4, Malana road,<br />Post Jari, District Kullu,<br />Himachal Pradesh - 175105</p>
+                <p>Based in Kasol, serving villages of Kullu District, Himachal Pradesh</p>
               </div>
               <div className="flex flex-col space-y-2">
                 <div className="flex items-center">

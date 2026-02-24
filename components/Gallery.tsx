@@ -2,10 +2,11 @@
 import React, { useState, useRef } from 'react';
 
 const galleryImages = [
-  { src: "/raw images/rawimg1.jpg", alt: "Volunteers working", category: "Community" },
-  { src: "/raw images/rawimg6.jpg", alt: "Kids studying", category: "Education" },
-  { src: "/raw images/rawimg13.jpg", alt: "Clean drives", category: "Environment" },
-  { src: "/raw images/rawimg4.jpg", alt: "Campfire moments", category: "Culture" },
+  { src: "/raw images/rawimg6.jpg", alt: "Kids education class", category: "Education" },
+  { src: "/raw images/rawimg9.jpg", alt: "Women group session", category: "Empowerment" },
+  { src: "/raw images/rawimg7.jpg", alt: "Village cleanliness drive", category: "Environment" },
+  { src: "/raw images/rawimg10.jpg", alt: "Youth workshop", category: "Youth Development" },
+  { src: "/raw images/rawimg12.jpg", alt: "Volunteer group photo", category: "Volunteering" },
 ];
 
 export const Gallery = () => {

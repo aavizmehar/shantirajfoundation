@@ -4,31 +4,27 @@ import React, { useState, useEffect } from 'react';
 const testimonials = [
   {
     id: 1,
-    name: "Aarav Sharma",
-    role: "Volunteer",
-    image: "https://placehold.co/100x100/eaad3d/FFFFFF?text=AS",
-    text: "Volunteering at the Kasol center was life-changing. The free stay program allowed me to focus entirely on teaching the kids without worrying about expenses."
+    name: "A Volunteer",
+    role: "Volunteer Voices",
+    text: "Volunteering here changed my perspective. It's truly rewarding to be part of such dedicated efforts for community development."
   },
   {
     id: 2,
-    name: "Priya Patel",
-    role: "Donor",
-    image: "https://placehold.co/100x100/1A1A1A/FFFFFF?text=PP",
-    text: "Seeing the transparency and dedication of the Shantiraj team is inspiring. I know every rupee I donate actually reaches the women and children who need it."
+    name: "Local Teacher",
+    role: "Community Response",
+    text: "Our children are learning better and showing more interest in school thanks to the Shantiraj Foundation's education programs."
   },
   {
     id: 3,
-    name: "Rohan Mehta",
-    role: "Student Beneficiary",
-    image: "https://placehold.co/100x100/406E8E/FFFFFF?text=RM",
-    text: "The computer classes helped me get my first job. I never thought I would learn coding in my village. Thank you Shantiraj Foundation!"
+    name: "Village Elder",
+    role: "Community Response",
+    text: "The cleanliness drives have made our village a healthier place to live. We are grateful for the support."
   },
   {
     id: 4,
-    name: "Sarah Jenkins",
-    role: "International Volunteer",
-    image: "https://placehold.co/100x100/f39c12/FFFFFF?text=SJ",
-    text: "The warmth of the community and the structured programs made my 3-week stay unforgettable. I highly recommend the Free Stay program."
+    name: "Former Beneficiary",
+    role: "Volunteer Voices",
+    text: "After receiving support from the foundation, I was inspired to volunteer myself and give back to my community."
   }
 ];
 
@@ -86,13 +82,7 @@ export const Testimonials = () => {
                   className={`col-start-1 row-start-1 transition-all duration-700 ease-in-out transform ${transitionClass} flex items-center justify-center w-full py-4`}
                 >
                   <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl max-w-3xl w-full flex flex-col md:flex-row items-center gap-8 border border-gray-100">
-                    <div className="flex-shrink-0">
-                      <img 
-                        src={testimonial.image} 
-                        alt={testimonial.name} 
-                        className="w-24 h-24 rounded-full object-cover border-4 border-primary/20"
-                      />
-                    </div>
+
                     <div className="text-center md:text-left">
                       <div className="text-4xl text-primary/30 font-serif mb-2 leading-none">“</div>
                       <p className="text-lg md:text-xl text-secondary italic mb-6 leading-relaxed">

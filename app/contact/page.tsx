@@ -26,9 +26,9 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="space-y-8">
                 <div>
-                    <h2 className="text-2xl font-bold text-secondary mb-4">Get In Touch</h2>
+                    <h2 className="text-2xl font-bold text-secondary mb-4">Get Involved or Get In Touch</h2>
                     <p className="text-text-light">
-                        Have questions about our programs, volunteering, or donations? Reach out to us directly.
+                        Whether you have a question, want to volunteer, or explore a partnership, we'd love to connect with you.
                     </p>
                 </div>
 

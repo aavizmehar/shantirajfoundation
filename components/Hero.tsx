@@ -28,25 +28,28 @@ export const Hero = () => {
         </h1>
 
         {/* Subline */}
-        <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-3xl font-medium tracking-wider uppercase opacity-90 animate-fade-in-up delay-100">
+        <p className="text-lg md:text-xl text-gray-200 mb-4 max-w-3xl font-medium tracking-wider uppercase opacity-90 animate-fade-in-up delay-100">
           {heroContent.subtitle}
+        </p>
+        <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-3xl font-medium tracking-wider opacity-90 animate-fade-in-up delay-100">
+          {heroContent.tagline}
         </p>
 
         {/* Buttons Group */}
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-2xl justify-center animate-fade-in-up delay-200">
           <Link href="/volunteer" className="w-full sm:w-auto">
             <Button variant="primary" className="text-lg px-8 py-4 w-full">
-              {heroContent.ctaPrimary}
+              Apply Now
             </Button>
           </Link>
           <Link href="/free-stay" className="w-full sm:w-auto">
             <Button variant="outline-white" className="text-lg px-8 py-4 w-full">
-              {heroContent.ctaSecondary}
+              Learn More
             </Button>
           </Link>
           <Link href="/partner" className="w-full sm:w-auto">
             <Button variant="glass" className="text-lg px-8 py-4 w-full">
-               {heroContent.ctaTertiary}
+               Contact Us
             </Button>
           </Link>
         </div>

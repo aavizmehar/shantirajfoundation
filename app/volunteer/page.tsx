@@ -29,28 +29,31 @@ export default function Volunteer() {
       <Section className="py-20">
           <div className="max-w-4xl mx-auto space-y-16">
               
-              {/* Benefits Section */}
+              {/* What You Do & Get Section */}
               <div>
-                  <h2 className="text-3xl font-bold text-secondary mb-8 text-center">What You Get</h2>
+                  <h2 className="text-3xl font-bold text-secondary mb-8 text-center">What You Do & Get</h2>
                   <div className="grid md:grid-cols-3 gap-8">
-                      <BenefitCard icon={<FaBed />} title="Stay & Food Provided" />
-                      <BenefitCard icon={<FaCertificate />} title="Certificate of Completion" />
-                      <BenefitCard icon={<FaUsers />} title="Leadership Learning" />
+                      <FeatureCard icon={<FaBook />} title="Teach & Mentor" description="Engage in educational activities, help with homework, and inspire young minds." />
+                      <FeatureCard icon={<FaUsers />} title="Community Engagement" description="Participate in village development projects, cleanliness drives, and awareness campaigns." />
+                      <FeatureCard icon={<FaCertificate />} title="Earn Certificate" description="Receive a valuable certificate recognizing your contribution and newfound skills." />
                   </div>
               </div>
 
-              {/* Program Details Section */}
-              <div className="grid md:grid-cols-2 gap-8">
-                <DetailCard title="Program Duration">
-                  <p>7 Days (First Time)</p>
-                  <p>11 Days</p>
-                  <p>21 Days</p>
-                </DetailCard>
-                <DetailCard title="Monthly Capacity">
-                  <p>16 Female Volunteers</p>
-                  <p>8 Male Volunteers</p>
-                  <p className="text-sm text-gray-500">(Weekly slots only)</p>
-                </DetailCard>
+              {/* Who Can Join Section */}
+              <div>
+                <h2 className="text-3xl font-bold text-secondary mb-8 text-center">Who Can Join?</h2>
+                <div className="grid md:grid-cols-2 gap-8">
+                  <DetailCard title="Eligibility">
+                    <p>Individuals passionate about social work and community development.</p>
+                    <p>Minimum age: 18 years.</p>
+                    <p>Ability to dedicate 6 hours daily to volunteer activities.</p>
+                  </DetailCard>
+                  <DetailCard title="Volunteer Capacity">
+                    <p>Limited slots available each month to ensure quality engagement.</p>
+                    <p>We welcome both male and female volunteers.</p>
+                    <p className="text-sm text-gray-500">(Weekly slots only, please apply in advance)</p>
+                  </DetailCard>
+                </div>
               </div>
 
               {/* Rules Section */}
@@ -82,10 +85,11 @@ export default function Volunteer() {
   );
 }
 
-const BenefitCard = ({ icon, title }: { icon: React.ReactNode, title: string }) => (
+const FeatureCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
     <div className="bg-white text-center p-8 rounded-xl shadow-lg hover:shadow-primary/20 hover:-translate-y-2 transition-all duration-300 border border-gray-100">
         <div className="text-4xl text-primary mx-auto mb-4 inline-block">{icon}</div>
-        <h3 className="text-xl font-bold text-secondary">{title}</h3>
+        <h3 className="text-xl font-bold text-secondary mb-2">{title}</h3>
+        <p className="text-text-light">{description}</p>
     </div>
 );
 

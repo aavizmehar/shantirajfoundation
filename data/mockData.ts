@@ -3,14 +3,16 @@ export const navLinks = [
     { name: "About Us", href: "/about" },
     { name: "Programs", href: "/programs" },
     { name: "Volunteer", href: "/volunteer" },
-    { name: "Impact Stay", href: "/free-stay" },
+    { name: "Internship", href: "/internship" },
+    { name: "60-Day Impact Plan", href: "/impact-plan" },
     { name: "Partner With Us", href: "/partner" },
     { name: "Contact", href: "/contact" },
   ];
   
   export const heroContent = {
-    title: "Stay. Serve. Transform Lives.",
-    subtitle: "A youth & women-led social foundation creating real impact through education, environment & community work.",
+    title: "Empowering Communities Through Education & Social Action",
+    subtitle: "Volunteer With Purpose – Kasol, Himachal Pradesh",
+    tagline: "थोड़ा सा समय कि सी का कल बदल सकता है।",
     ctaPrimary: "Join as Volunteer",
     ctaSecondary: "Experience Impact Stay",
     ctaTertiary: "Partner With Us",
@@ -54,3 +56,28 @@ export const navLinks = [
     address: "Kasol, Himachal Pradesh",
     instagram: "shantirajfoundationofficial",
   };
+  
+  export const impactStats = [
+    { label: "Villages Reached", value: "50+" },
+    { label: "Lives Impacted", value: "500+" },
+    { label: "Core Programs", value: "6" },
+  ];
+  
+  export const howItWorksSteps = [
+    {
+      title: "Join Volunteer Program",
+      description: "Sign up for a program that aligns with your passion for social change.",
+    },
+    {
+      title: "Serve 6 hrs/day",
+      description: "Dedicate your time and skills to impactful community projects.",
+    },
+    {
+      title: "Learn & Lead",
+      description: "Gain valuable experience, develop leadership skills, and grow personally.",
+    },
+    {
+      title: "Earn Certificate",
+      description: "Receive a certificate of social impact for your invaluable contribution.",
+    },
+  ];
