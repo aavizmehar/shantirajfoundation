@@ -1,4 +1,5 @@
 import React from 'react';
+// trigger deployment
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Section } from '@/components/ui/Section';
@@ -8,8 +9,7 @@ import Image from 'next/image';
 export default function About() {
   return (
     <main className="min-h-screen flex flex-col bg-gray-50">
-      <Navbar />
-      
+      <Navbar/>      
       {/* Hero / Header */}
       <section className="pt-72 pb-20 bg-secondary text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -114,10 +114,8 @@ export default function About() {
                 </p>
             </div>
           </Reveal>
-
         </div>
       </Section>
-
       <Footer />
     </main>
   );
